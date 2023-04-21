@@ -42,13 +42,13 @@ REQUISITOS DE NEGOCIO:
     - Poderá acessar o phpMyAdmin no navegador pela porta: http://localhost:3400
         - Basta inserir o usuário e senha do mysql que foram configurados no arquivo .env
     - Poderá também popular as tabelas utilizando o comando:
-        - docker-compose exec app php artisan migrate
+        - docker-compose exec app php artisan db:seed
 
 
 5. PARE | INICIE seus containers na aplicação, segue:
     - docker-compose stop
     - docker-compose start
-    ** Ambos os comandos precisam ser executados dentro do projeto (só pra ressaltar)
+    Ambos os comandos precisam ser executados dentro do projeto (só pra ressaltar)
 
 
 6. Derrube os containers na sua aplicação, segue:
