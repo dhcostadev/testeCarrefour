@@ -57,7 +57,12 @@ REQUISITOS DE NEGOCIO:
 
 *Nota:*`Para o projeto executar perfeitamente será necessário ter o docker instalado em sua máquina.`
 
-
+7. Tecnologias utilizadas
+ - PHP 8
+ - Laravel 10
+ - MySQL
+ - Docker
+ 
 ### DOCUMENTAÇÃO DO DOCKER PARA INSTALAÇÃO
 
 - **[Link Docker](https://docs.docker.com/engine/install/)**
